@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site do Gean e da Sara</title>
+    <title>Gean & Sara | Made in Brazil</title>
     <style>
         /* Estilos gerais para o corpo da página */
         body {
-            font-family: Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             margin: 0;
             padding: 0;
             display: flex;
@@ -22,6 +22,10 @@
             flex: 1; /* Permite que o contêiner cresça para empurrar o rodapé para baixo */
             text-align: center;
             padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
 
         /* Estilos para a seção dos avatares */
@@ -38,21 +42,26 @@
             height: 150px;
             border-radius: 50%; /* Deixa a imagem redonda */
             border: 5px solid #ffffff; /* Adiciona uma borda branca */
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Adiciona uma sombra suave */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Adiciona uma sombra suave */
             object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
         }
 
         /* Estilo para o texto principal abaixo dos avatares */
         .main-text {
-            font-size: 1.5em; /* Tamanho da fonte */
-            color: #555; /* Cor do texto um pouco mais suave */
+            font-size: 1.6em; /* Tamanho da fonte */
+            color: #444; /* Cor do texto um pouco mais suave */
             line-height: 1.6; /* Espaçamento entre linhas */
+            max-width: 600px; /* Evita que o texto fique muito largo em telas grandes */
+        }
+        
+        .main-text strong {
+            font-weight: 600;
         }
 
         /* Estilos para o rodapé */
         footer {
-            background-color: #333; /* Cor de fundo escura */
-            color: #fff; /* Cor do texto branca */
+            background-color: #2c3e50; /* Um azul escuro/cinza */
+            color: #ecf0f1; /* Um branco suave */
             text-align: center;
             padding: 20px;
             font-size: 0.9em;
@@ -68,13 +77,13 @@
         </div>
 
         <p class="main-text">
-            Site do Gean e da Sara.<br>
-            hoje comeca oficialmente a nossa jornada. rumo ao sucesso.
+            Bem-vindos ao nosso espaço!<br>
+            Somos <strong>Gean e Sara</strong>, e hoje começa oficialmente a nossa jornada rumo ao sucesso.
         </p>
     </div>
 
     <footer>
-        <p>todos os direitos reservados | MBR - Made in Brazil - Empreendimento digital</p>
+        <p>Todos os direitos reservados - MBR - Made in Brazil - Empreendimento Digital</p>
     </footer>
 
 </body>
